@@ -212,7 +212,7 @@ header .intro-text {
 #iucn-logo {
      background: url('../img/logos/iucn_b.png');
      height: 100px;
-     width: 110px; 
+     width: 110px;
      display: block;
      margin: 0 auto;
 }
@@ -220,13 +220,13 @@ header .intro-text {
 #iucn-logo:hover
 {
     background: url('../img/logos/iucn_n.png');
- 
+
 }
 
 #kll-logo {
      background: url('../img/logos/kll_b.png');
      height: 100px;
-     width: 110px; 
+     width: 110px;
      display: block;
      margin: 0 auto;
 }
@@ -234,13 +234,13 @@ header .intro-text {
 #kll-logo:hover
 {
     background: url('../img/logos/kll_n.png');
- 
+
 }
 
 #dnpwc-logo {
      background: url('../img/logos/dnpwc_b.png');
      height: 100px;
-     width: 110px; 
+     width: 110px;
      display: block;
      margin: 0 auto;
 }
@@ -248,13 +248,13 @@ header .intro-text {
 #dnpwc-logo:hover
 {
     background: url('../img/logos/dnpwc_n.png');
- 
+
 }
 
 #tu-logo {
      background: url('../img/logos/tu_b.png');
      height: 100px;
-     width: 110px; 
+     width: 110px;
      display: block;
      margin: 0 auto;
 }
@@ -262,7 +262,7 @@ header .intro-text {
 #tu-logo:hover
 {
     background: url('../img/logos/tu_n.png');
- 
+
 }
 
 /* About Section */
@@ -441,7 +441,7 @@ header .intro-text {
 
 #team .logodesc{
 	font-size:14px;
-} 
+}
 
 #team .service-media {
 	margin: 10px;
@@ -628,7 +628,7 @@ ol.type li a:hover {
 				/*background-color: rgba(255, 255, 255,0.2);*/
 		}
 		.event-list > li {
-			background-color: rgba(255, 255, 255);
+			background-color: rgba(255, 255, 255,0.0);
 			position: relative;
 			display: block;
 			width: 100%;
@@ -643,11 +643,11 @@ ol.type li a:hover {
 			padding: 5px;
 			text-align: center;
 			text-transform: uppercase;
-		}		
+		}
 
 		.event-list > li > time > span {
 			display: none;
-		}		
+		}
 
 		.event-list > li > time,
 		.event-list > li > img  {
@@ -695,11 +695,11 @@ ol.type li a:hover {
 			/*height: 300px;*/
 			text-align: left;
 			padding-right: 40px;
-		}	
+		}
 		.event-list > li > .info > .title {
 			color :#FFFFFF;
 			font-weight : bold;
-		} 
+		}
 		.event-list > li > .info > .desc {
 			padding: 0px 0px;
 			color: #ffffff;
@@ -717,10 +717,10 @@ ol.type li a:hover {
 			display: block;
 			width: 40px;
 		}
-        .event-list > li > .social > ul {
-            border-left: 1px solid rgb(230, 230, 230);
-        }
-		.event-list > li > .social > ul > li {			
+    .event-list > li > .social > ul {
+        border-left: 1px solid rgb(230, 230, 230);
+    }
+		.event-list > li > .social > ul > li {
 			display: block;
             padding: 0px;
 		}
@@ -871,7 +871,7 @@ color: #777;
 
 /*Loading Image*/
 /* Paste this css to your style sheet file or under head tag */
-/* This only works with JavaScript, 
+/* This only works with JavaScript,
 if it's not present, don't show loader */
 .no-js #loader { display: none;  }
 .js #loader { display: block; position: absolute; left: 100px; top: 0; }
