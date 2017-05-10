@@ -109,8 +109,8 @@ var Home = React.createClass({
                                             <br/>
                                         </p>
                                         
-                                       <a href="#" className="btn btn-custom btn-lg page-scroll">Explore Data</a>
-                                       <a href="#" className="btn btn-custom btn-lg page-scroll">Submit Observations</a>
+                                       <a href="https://invis.io/6WBN9K6KV#/232993027_1" target = "_blank" className="btn btn-custom btn-lg page-scroll">Explore Data</a>
+                                       <a href="https://invis.io/7WBN9KZGK#/232988104_1" target = "_blank" className="btn btn-custom btn-lg page-scroll">Submit Observations</a>
 
                                       </div>
                                 </div>
@@ -184,7 +184,117 @@ var Home = React.createClass({
                 <div id="team">
                     <div className="container">
                         <div className="section-title text-center center">
-                            <h2>Team Members</h2>
+                            <h2>Project Steering Committee</h2>
+                            <hr/>
+                            <div className="row centered-row">
+                                <div className="col-md-4 col-sm-4 col-xs-6 text-center centered-col">
+                                    <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/profile_f.png" alt=" "/> 
+                                    </div>
+                                    <div className="service-desc">
+                                        <h3>Dr. Maheshwar Dhakal</h3>
+                                        <h4>Chairperson</h4>
+                                        <h4>Joint Secretary, Biodiversity and Environment Division, MoFSC</h4>
+                                    </div>
+                                </div>
+                                <div className="col-md-4 col-sm-4 col-xs-6 text-center centered-col">
+                                    <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/profile_f.png" alt=" "/> 
+                                    </div>
+                                    <div className="service-desc">
+                                        <h3>Gopal Prakash Bhattarai</h3>
+                                        <h4>Member</h4>
+                                        <h4>Deputy Director General, DNPWC</h4>
+                                    </div>
+                                </div>
+                                <div className="col-md-4 col-sm-4 col-xs-6 text-center centered-col">
+                                    <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/profile_f.png" alt=" "/> 
+                                    </div>
+                                    <div className="service-desc">
+                                        <h3>Prof. Mohan Siwakoti</h3>
+                                        <h4>Member</h4>
+                                        <h4>HoD, CDB/TU</h4>
+                                    </div>
+                                </div>
+                                <div className="col-md-4 col-sm-4 col-xs-6 text-center centered-col">
+                                    <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/profile_f.png" alt=" "/> 
+                                    </div>
+                                    <div className="service-desc">
+                                        <h3>Dr. Nama Budhathoki</h3>
+                                        <h4>Co-principal Investigator</h4>
+                                        <h4>Executive Director, KLL</h4>
+                                    </div>
+                                </div>
+                                <div className="col-md-4 col-sm-4 col-xs-6 text-center centered-col">
+                                    <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/profile_f.png" alt=" "/> 
+                                    </div>
+                                    <div className="service-desc">
+                                        <h3>Dr. Prahlad Thapa</h3>
+                                        <h4>Member</h4>
+                                        <h4>Country Representative, IUCN</h4>
+                                    </div>
+                                </div>
+                                <div className="col-md-4 col-sm-4 col-xs-6 text-center centered-col">
+                                    <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/profile_f.png" alt=" "/> 
+                                    </div>
+                                    <div className="service-desc">
+                                        <h3>Dhananjaya Lamichhane</h3>
+                                        <h4>Member Secretary</h4>
+                                        <h4>Under Secretary, Biodiversity and Environment Division, MoFSC/BED</h4>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <h2>Project Management Committee</h2>
+                            <hr/>
+                            <div className="row centered-row">
+                                <div className="col-md-4 col-sm-4 col-xs-6 text-center centered-col">
+                                    <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/profile_f.png" alt=" "/> 
+                                    </div>
+                                    <div className="service-desc">
+                                        <h3>Laxman Prasad Poudyal</h3>
+                                        <h4>Chairperson</h4>
+                                        <h4>Under Secretary, Department of National Park and Wildlife Conservation</h4>
+                                    </div>
+                                </div>
+                                <div className="col-md-4 col-sm-4 col-xs-6 text-center centered-col">
+                                    <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/profile_f.png" alt=" "/> 
+                                    </div>
+                                    <div className="service-desc">
+                                        <h3>Dr. Menaka Panta Neupane</h3>
+                                        <h4>Member</h4>
+                                        <h4>Consultant / Programme Development, IUCN</h4>
+                                    </div>
+                                </div>
+                                <div className="col-md-4 col-sm-4 col-xs-6 text-center centered-col">
+                                    <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/profile_f.png" alt=" "/> 
+                                    </div>
+                                    <div className="service-desc">
+                                        <h3>Prof. Mohan Siwakoti</h3>
+                                        <h4>Member</h4>
+                                        <h4>HoD, CDB/TU</h4>
+                                    </div>
+                                </div>
+                                <div className="col-md-4 col-sm-4 col-xs-6 text-center centered-col">
+                                    <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/profile_f.png" alt=" "/> 
+                                    </div>
+                                    <div className="service-desc">
+                                        <h3>Prof. Dr. Pramod Kumar Jha</h3>
+                                        <h4>Member</h4>
+                                        <h4>Consultant, IUCN</h4>
+                                    </div>
+                                </div>
+                                <div className="col-md-4 col-sm-4 col-xs-6 text-center centered-col">
+                                    <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/profile_f.png" alt=" "/> 
+                                    </div>
+                                    <div className="service-desc">
+                                        <h3>Dr. Nama Budhathoki</h3>
+                                        <h4>Member</h4>
+                                        <h4>Representative, Kathmandu Living Labs</h4>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <h2>Core Team Members</h2>
                             <hr/>
                             <div className="row centered-row">
                                 <div className="col-md-4 col-sm-4 col-xs-6 text-center centered-col">
