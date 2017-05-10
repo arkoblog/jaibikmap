@@ -39,6 +39,11 @@ var Main = {
 	        offset: 80
 	    });
 
+	    
+			console.log( $(".navbar-toggle"))
+
+		        // console.log("Clicked")
+
 		$(".navbar-nav li a").click(function (event) {
 		// check if window is small enough so dropdown is created
 		var toggle = $(".navbar-toggle").is(":visible");

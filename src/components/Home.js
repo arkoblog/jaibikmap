@@ -3,6 +3,7 @@ var ReactRouter = require('react-router');
 var Link = ReactRouter.Link;
 var HomeHelper = require('../js/main_1')
 import Scrollchor from 'react-scrollchor';
+import ScrollableAnchor from 'react-scrollable-anchor'
 require ('../css/home.css')
 // require ('../js/home.js')
 
@@ -15,35 +16,78 @@ require ('../css/home.css')
 
 var Home = React.createClass({
     getInitialState: function() {
-        return {}
+        return {
+            show:false,
+            display:"block"
+        }
     },
     componentWillMount: function () {
-        HomeHelper.onLoad()
+        this._handleResize();
+
     },
     scrollHandler: function(section) {
         document.getElementById('about').scrollIntoView() 
     },
-    componentDidMount: function() {},
+    onClick : function(e) {
+
+        // console.log(maxWindowWidth)
+        var current = this.state.show
+        console.log(current)
+        if (current == true) {
+            this.setState({
+                display:"show",
+                show : !current
+            })
+        } else {
+            this.setState({
+                display:"hide",
+                show : !current
+            }) 
+        }
+        // var clicked=this.state.clicked
+        // $(".navbar-collapse").collapse();
+    },
+    shouldComponentUpdate: function(nextProps, nextState) {
+        return this.state.show != nextState.show
+    },
+    _handleResize: function() {
+        var current = this.state.show
+        var maxWindowWidth = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+        if(maxWindowWidth > 1000) {
+            this.setState({
+                display:"show",
+                show : !current
+            })
+        } else  {
+            this.setState({
+                display:"hide",
+                show : !current
+            })             
+        }
+        HomeHelper.onLoad()
+    },
+    componentDidMount: function() {
+        window.addEventListener("resize", this._handleResize);
+    },
     render: function() {
         return (
             <div id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-
               <nav id="menu" className="navbar navbar-default navbar-fixed-top">
                     <div className="container">
                         <div className="navbar-header">
-                            <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span className="sr-only">Toggle navigation</span> <span className="icon-bar"></span> <span className="icon-bar"></span> <span className="icon-bar"></span> </button>
+                            <button type="button" onClick={this.onClick} className="navbar-toggle"> <span className="sr-only">Toggle navigation</span> <span className="icon-bar"></span> <span className="icon-bar"></span> <span className="icon-bar"></span> </button>
                             <Scrollchor to="#page-top" className="navbar-brand page-scroll">Jaibik Map</Scrollchor></div>
 
 
-                        <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <div className={this.state.display} style = {{display: this.state.display}} id="bs-example-navbar-collapse-1">
                             <ul className="nav navbar-nav navbar-right">
                                 <li><Scrollchor to="#about" className="page-scroll">About</Scrollchor>
                                 </li>
-                                <li><Scrollchor to="#objectives" className="page-scroll">Objectives</Scrollchor>
+                                <li><Scrollchor  to="#objectives" className="page-scroll">Objectives</Scrollchor>
                                 </li>
-                                <li><Scrollchor to="#team" className="page-scroll">Team</Scrollchor>
+                                <li><Scrollchor  to="#team" className="page-scroll">Team</Scrollchor>
                                 </li>
-                                <li><Scrollchor to="#events" className="page-scroll">Events and Notices</Scrollchor>
+                                <li><Scrollchor  to="#events" className="page-scroll">Events and Notices</Scrollchor>
                                 </li>
                                 <li><Scrollchor to="#contact" className="page-scroll">Contact</Scrollchor>
                                 </li>
@@ -144,60 +188,67 @@ var Home = React.createClass({
                             <hr/>
                             <div className="row centered-row">
                                 <div className="col-md-4 col-sm-4 col-xs-6 text-center centered-col">
-                                    <div className="service-media"> <img src="https://code.kathmandulivinglabs.org/arkoblog/jaibikmap-react/raw/master/src/img/profile/profile_f.png" alt=" "/> 
+                                    <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/profile_f.png" alt=" "/> 
                                     </div>
                                     <div className="service-desc">
                                         <h3>Menaka Pant, Ph. D.</h3>
-                                        <h4>Principal Investigator, IUCN</h4>
+                                        <h4>Principal Investigator / GIS, RS Data Quality Control Specialist, IUCN</h4>
                                     </div>
                                 </div>
                                 <div className="col-md-4 col-sm-4 col-xs-6 text-center centered-col">
-                                    <div className="service-media"> <img src="https://code.kathmandulivinglabs.org/arkoblog/jaibikmap-react/raw/master/src/img/profile/profile_m.jpg" alt=" "/> </div>
+                                    <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/profile_m.jpg" alt=" "/> </div>
                                     <div className="service-desc">
                                         <h3>Deep Narayan Shah, Ph. D.</h3>
-                                        <h4>[Designation], IUCN</h4>
+                                        <h4>Meteorological Data Analyst, IUCN</h4>
                                     </div>
                                 </div>
                                 <div className="col-md-4 col-sm-4 col-xs-6 text-center centered-col">
-                                    <div className="service-media"> <img src="https://code.kathmandulivinglabs.org/arkoblog/jaibikmap-react/raw/master/src/img/profile/profile_m.jpg" alt=" "/> </div>
+                                    <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/profile_m.jpg" alt=" "/> </div>
                                     <div className="service-desc">
-                                        <h3>Prof. P. K. Jha</h3>
-                                        <h4>[Designation], TU</h4>
+                                        <h3>Prof. Pramod K. Jha</h3>
+                                        <h4>Co-principal Investigator, IUCN</h4>
                                     </div>
                                 </div>
                                 <div className="col-md-4 col-sm-4 col-xs-6 text-center centered-col">
-                                    <div className="service-media"> <img src="https://code.kathmandulivinglabs.org/arkoblog/jaibikmap-react/raw/master/src/img/profile/profile_m.jpg" alt=" "/> </div>
+                                    <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/profile_m.jpg" alt=" "/> </div>
                                     <div className="service-desc">
                                         <h3>Nama Budhathoki, Ph. D.</h3>
                                         <h4>Co-principal Investigator, KLL</h4>
                                     </div>
                                 </div>
                                 <div className="col-md-4 col-sm-4 col-xs-6 text-center centered-col">
-                                    <div className="service-media"> <img src="https://code.kathmandulivinglabs.org/arkoblog/jaibikmap-react/raw/master/src/img/profile/profile_f.png" alt=" "/> </div>
+                                    <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/profile_m.jpg" alt=" "/> </div>
                                     <div className="service-desc">
-                                        <h3>[Team Member Name]</h3>
-                                        <h4>[Designation], [Org]</h4>
+                                        <h3>Hari Basnet</h3>
+                                        <h4>Mammalian / Habitat Land-use Data analyst, DNPWC</h4>
                                     </div>
                                 </div>
                                 <div className="col-md-4 col-sm-4 col-xs-6 text-center centered-col">
-                                    <div className="service-media"> <img src="https://code.kathmandulivinglabs.org/arkoblog/jaibikmap-react/raw/master/src/img/profile/profile_m.jpg" alt=" "/> </div>
+                                    <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/profile_m.jpg" alt=" "/> </div>
                                     <div className="service-desc">
-                                        <h3>[Team Member Name]</h3>
-                                        <h4>[Designation], [Org]</h4>
+                                        <h3>Prabhat Raj Dahal</h3>
+                                        <h4>GIS / Modelling Expert, KLL</h4>
                                     </div>
                                 </div>
                                 <div className="col-md-4 col-sm-4 col-xs-6 text-center centered-col">
-                                    <div className="service-media"> <img src="https://code.kathmandulivinglabs.org/arkoblog/jaibikmap-react/raw/master/src/img/profile/profile_f.png" alt=" "/> </div>
+                                    <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/profile_m.jpg" alt=" "/> </div>
                                     <div className="service-desc">
-                                        <h3>[Team Member Name]</h3>
-                                        <h4>[Designation], [Org]</h4>
+                                        <h3>Arogya Koirala</h3>
+                                        <h4>Web Developer, KLL</h4>
                                     </div>
                                 </div>
                                 <div className="col-md-4 col-sm-4 col-xs-6 text-center centered-col">
-                                    <div className="service-media"> <img src="https://code.kathmandulivinglabs.org/arkoblog/jaibikmap-react/raw/master/src/img/profile/profile_m.jpg" alt=" "/> </div>
+                                    <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/profile_f.png" alt=" "/> </div>
                                     <div className="service-desc">
-                                        <h3>[Team Member Name]</h3>
-                                        <h4>[Designation], [Org]</h4>
+                                        <h3>Anu Rai</h3>
+                                        <h4>Intern, IUCN</h4>
+                                    </div>
+                                </div>
+                                <div className="col-md-4 col-sm-4 col-xs-6 text-center centered-col">
+                                    <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/profile_m.jpg" alt=" "/> </div>
+                                    <div className="service-desc">
+                                        <h3>Ayush Adhikari</h3>
+                                        <h4>Intern, IUCN</h4>
                                     </div>
                                 </div>
                             </div>
@@ -314,22 +365,22 @@ var Home = React.createClass({
                                 <h3>Address</h3>
                                 <hr/>
                                 <div className="contact-item">
-                                    <p>[Building No.] Kupondole,</p>
-                                    <p>Lalitpur, Nepal 12345</p>
+                                    <p>Kupondole Rd 162,</p>
+                                    <p>Lalitpur, Nepal 44700</p>
                                 </div>
                             </div>
                             <div className="col-md-4">
                                 <h3>Working Hours</h3>
                                 <hr/>
                                 <div className="contact-item">
-                                    <p>Monday-Friday: 09:00 - 17:00</p>
+                                    <p>Monday-Friday: 09:00 - 17:30</p>
                                 </div>
                             </div>
                             <div className="col-md-4">
                                 <h3>Contact Info</h3>
                                 <hr/>
                                 <div className="contact-item">
-                                    <p>Phone: +977 PHONE-NUMBER</p>
+                                    <p>Phone: +977 1-5528781</p>
                                     <p>Email: [Add Email Here]</p>
                                 </div>
                             </div>
