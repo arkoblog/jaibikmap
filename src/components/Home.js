@@ -188,7 +188,7 @@ var Home = React.createClass({
                             <hr/>
                             <div className="row centered-row">
                                 <div className="col-md-4 col-sm-4 col-xs-6 text-center centered-col">
-                                    <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/profile_f.png" alt=" "/> 
+                                    <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/profile_m.jpg" alt=" "/> 
                                     </div>
                                     <div className="service-desc">
                                         <h3>Dr. Maheshwar Dhakal</h3>
@@ -197,7 +197,7 @@ var Home = React.createClass({
                                     </div>
                                 </div>
                                 <div className="col-md-4 col-sm-4 col-xs-6 text-center centered-col">
-                                    <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/profile_f.png" alt=" "/> 
+                                    <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/profile_m.jpg" alt=" "/> 
                                     </div>
                                     <div className="service-desc">
                                         <h3>Gopal Prakash Bhattarai</h3>
@@ -206,7 +206,7 @@ var Home = React.createClass({
                                     </div>
                                 </div>
                                 <div className="col-md-4 col-sm-4 col-xs-6 text-center centered-col">
-                                    <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/profile_f.png" alt=" "/> 
+                                    <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/profile_m.jpg" alt=" "/> 
                                     </div>
                                     <div className="service-desc">
                                         <h3>Prof. Mohan Siwakoti</h3>
@@ -215,7 +215,7 @@ var Home = React.createClass({
                                     </div>
                                 </div>
                                 <div className="col-md-4 col-sm-4 col-xs-6 text-center centered-col">
-                                    <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/profile_f.png" alt=" "/> 
+                                    <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/profile_m.jpg" alt=" "/> 
                                     </div>
                                     <div className="service-desc">
                                         <h3>Dr. Nama Budhathoki</h3>
@@ -224,7 +224,7 @@ var Home = React.createClass({
                                     </div>
                                 </div>
                                 <div className="col-md-4 col-sm-4 col-xs-6 text-center centered-col">
-                                    <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/profile_f.png" alt=" "/> 
+                                    <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/profile_m.jpg" alt=" "/> 
                                     </div>
                                     <div className="service-desc">
                                         <h3>Dr. Prahlad Thapa</h3>
@@ -233,7 +233,7 @@ var Home = React.createClass({
                                     </div>
                                 </div>
                                 <div className="col-md-4 col-sm-4 col-xs-6 text-center centered-col">
-                                    <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/profile_f.png" alt=" "/> 
+                                    <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/profile_m.jpg" alt=" "/> 
                                     </div>
                                     <div className="service-desc">
                                         <h3>Dhananjaya Lamichhane</h3>
@@ -247,7 +247,7 @@ var Home = React.createClass({
                             <hr/>
                             <div className="row centered-row">
                                 <div className="col-md-4 col-sm-4 col-xs-6 text-center centered-col">
-                                    <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/profile_f.png" alt=" "/> 
+                                    <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/profile_m.jpg" alt=" "/> 
                                     </div>
                                     <div className="service-desc">
                                         <h3>Laxman Prasad Poudyal</h3>
@@ -265,7 +265,7 @@ var Home = React.createClass({
                                     </div>
                                 </div>
                                 <div className="col-md-4 col-sm-4 col-xs-6 text-center centered-col">
-                                    <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/profile_f.png" alt=" "/> 
+                                    <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/profile_m.jpg" alt=" "/> 
                                     </div>
                                     <div className="service-desc">
                                         <h3>Prof. Mohan Siwakoti</h3>
@@ -274,7 +274,7 @@ var Home = React.createClass({
                                     </div>
                                 </div>
                                 <div className="col-md-4 col-sm-4 col-xs-6 text-center centered-col">
-                                    <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/profile_f.png" alt=" "/> 
+                                    <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/profile_m.jpg" alt=" "/> 
                                     </div>
                                     <div className="service-desc">
                                         <h3>Prof. Dr. Pramod Kumar Jha</h3>
@@ -283,7 +283,7 @@ var Home = React.createClass({
                                     </div>
                                 </div>
                                 <div className="col-md-4 col-sm-4 col-xs-6 text-center centered-col">
-                                    <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/profile_f.png" alt=" "/> 
+                                    <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/profile_m.jpg" alt=" "/> 
                                     </div>
                                     <div className="service-desc">
                                         <h3>Dr. Nama Budhathoki</h3>
