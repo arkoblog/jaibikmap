@@ -66,6 +66,11 @@ var Home = React.createClass({
         }
         HomeHelper.onLoad()
     },
+    _navClick: function() {
+        console.log("click");
+        HomeHelper.onLoad()
+        
+    },
     componentDidMount: function() {
         window.addEventListener("resize", this._handleResize);
     },
@@ -80,7 +85,7 @@ var Home = React.createClass({
 
 
                         <div className={this.state.display} style = {{display: this.state.display}} id="bs-example-navbar-collapse-1">
-                            <ul className="nav navbar-nav navbar-right">
+                            <ul className="nav navbar-nav navbar-right" onClick = {this._navClick}>
                                 <li><Scrollchor to="#about" className="page-scroll">About</Scrollchor>
                                 </li>
                                 <li><Scrollchor  to="#objectives" className="page-scroll">Objectives</Scrollchor>
@@ -109,7 +114,7 @@ var Home = React.createClass({
                                             <br/>
                                         </p>
                                         
-                                       <a href="https://invis.io/6WBN9K6KV#/232993027_1" target = "_blank" className="btn btn-custom btn-lg page-scroll">Explore Data</a>
+                                       <a href="https://invis.io/58BNZI9ZF#/233214218_1" target = "_blank" className="btn btn-custom btn-lg page-scroll">Explore Mammalian Species</a>
                                        <a href="https://invis.io/7WBN9KZGK#/232988104_1" target = "_blank" className="btn btn-custom btn-lg page-scroll">Submit Observations</a>
 
                                       </div>
@@ -127,7 +132,6 @@ var Home = React.createClass({
                             <div className="col-xs-12 col-md-12">
                                 <div className="about-text">
                                     <h2>Welcome to <span>Jaibik Map</span></h2>
-                                    <hr/>
                                     <div className="row">
                                         <div className="col-xs-12 col-md-12">
 
@@ -140,7 +144,7 @@ var Home = React.createClass({
                                                 <li>How can ICT tools be applied to cutting-edge research questions to not only provide a proof of concept for emerging, innovative mapping tools, but also inform conservation and development planning?</li>
                                             </ul>
 
-                                            <a href="#" className="btn btn-custom btn-lg page-scroll">Click here to explore data</a> </div>
+                                            <a href="#" className="btn btn-custom btn-lg page-scroll">Click here to explore mammalian species</a> </div>
                                     </div>
 
                                 </div>
@@ -162,7 +166,6 @@ var Home = React.createClass({
                     <div className="container">
                         <div className="col-md-10 col-md-offset-1 section-title text-center">
                             <h2>Project Objectives</h2>
-                            <hr/>
                             <p>The Jaibik Map Project seeks to achieve the following outcomes upon the project's completion</p>
                         </div>
                         <div className="row">
@@ -185,7 +188,9 @@ var Home = React.createClass({
                     <div className="container">
                         <div className="section-title text-center center">
                             <h2>Project Steering Committee</h2>
-                            <hr/>
+                            <br/>
+                            <br/>
+
                             <div className="row centered-row">
                                 <div className="col-md-4 col-sm-4 col-xs-6 text-center centered-col">
                                     <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/profile_m.jpg" alt=" "/> 
@@ -242,9 +247,15 @@ var Home = React.createClass({
                                     </div>
                                 </div>
                             </div>
-
+                            <br/>
+                            <br/>
+                            <br/>
+                            <br/>
+                            <br/>
                             <h2>Project Management Committee</h2>
-                            <hr/>
+                            <br/>
+                            <br/>
+
                             <div className="row centered-row">
                                 <div className="col-md-4 col-sm-4 col-xs-6 text-center centered-col">
                                     <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/profile_m.jpg" alt=" "/> 
@@ -293,9 +304,16 @@ var Home = React.createClass({
                                 </div>
                             </div>
 
+                            <br/>
+                            <br/>
+                            <br/>
+                            <br/>
+                            <br/>
 
                             <h2>Core Team Members</h2>
-                            <hr/>
+                            <br/>
+                            <br/>
+                            
                             <div className="row centered-row">
                                 <div className="col-md-4 col-sm-4 col-xs-6 text-center centered-col">
                                     <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/profile_f.png" alt=" "/> 
@@ -362,8 +380,14 @@ var Home = React.createClass({
                                     </div>
                                 </div>
                             </div>
+                            <br/>
+                            <br/>
+                            <br/>
+                            <br/>
+
                             <h2 className="mid-section-heading">Partner Organizations</h2>
-                            <hr/>
+                            <br/>
+
                             <br/>
                             <div className="row centered-row">
                                 <div className="col-md-3 col-xs-6 centered-col">
@@ -396,7 +420,6 @@ var Home = React.createClass({
                         <div className="container">
                             <div className="section-title">
                                 <h2>Events and Notices</h2>
-                                <hr/>
                             </div>
                             <div className="row">
                                 <div className="col-md-12 event-item">
@@ -404,34 +427,17 @@ var Home = React.createClass({
                                         <li>
                                             <time dateTime="2014-07-20">
                                                 <span className="day"><span className="fa fa-calendar"></span></span>
-                                                <span className="month">event</span>
-                                                <span className="year">2014</span>
+                                                <span className="month">MAY</span>
+                                                <span className="year">2017</span>
                                                 <span className="time">ALL DAY</span>
                                             </time>
                                             <div className="info">
-                                                <h3 className="title">Event Announcement 1</h3>
-                                                <p className="desc">Text for the event description will reside here. It can extend anywhere between 0-4 lines, and we can also link it with the event's relevant handles in social media.</p>
-                                                <p className="desc">View announcement on: <a href="#" className="btn btn-danger btn-xs page-scroll"><span className="fa fa-facebook"></span></a>
+                                                <h3 className="title">Inception Workshop</h3>
+                                                <p className="desc"></p>
+                                                <p className="desc">Venue: Hotel Himalaya, Kupondole, Lalitpur | Time: 19 May 2017 (9AM to 11AM)</p>
+                                                {/*<p className="desc">View announcement on: <a href="#" className="btn btn-danger btn-xs page-scroll"><span className="fa fa-facebook"></span></a>
                                                     <a href="#" className="btn btn-danger btn-xs page-scroll"><span className="fa fa-twitter"></span></a>
-                                                </p>
-                                            </div>
-
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div className="col-md-12 event-item">
-                                    <ul className="event-list">
-                                        <li>
-                                            <time dateTime="2014-07-20">
-                                                <span className="day"><span className="fa fa-bell"></span></span>
-                                                <span className="month">notice</span>
-                                                <span className="year">2014</span>
-                                                <span className="time">ALL DAY</span>
-                                            </time>
-                                            <div className="info">
-                                                <h3 className="title">Notice Announcement 1</h3>
-                                                <p className="desc">Text for the notice description will reside here. It can extend anywhere between 0-4 lines, and we can also link it with the notice's relevant handles in social media.</p>
-                                                <p className="desc">Deadline: 21 March, 2015</p>
+                                                </p>*/}
                                             </div>
 
                                         </li>
@@ -442,21 +448,86 @@ var Home = React.createClass({
                                         <li>
                                             <time dateTime="2014-07-20">
                                                 <span className="day"><span className="fa fa-calendar"></span></span>
-                                                <span className="month">event</span>
-                                                <span className="year">2014</span>
+                                                <span className="month">APR</span>
+                                                <span className="year">2017</span>
                                                 <span className="time">ALL DAY</span>
                                             </time>
                                             <div className="info">
-                                                <h3 className="title">Event Announcement 2</h3>
-                                                <p className="desc">Text for the event description will reside here. It can extend anywhere between 0-4 lines, and we can also link it with the event's relevant handles in social media.</p>
-                                                <p className="desc">View announcement on: <a href="#" className="btn btn-danger btn-xs page-scroll"><span className="fa fa-facebook"></span></a>
+                                                <h3 className="title">First Project Steering Committee (PSC) Meeting</h3>
+                                                <p className="desc"> The first meeting for the PSC was successfully conducted at the Biodiversity and Environment Division / Ministry of Forest and Soil Conservation (BED/MoFSC)</p>
+                                                <p className="desc">Date: 4 April 2017</p>
+                                                {/*<p className="desc">View announcement on: <a href="#" className="btn btn-danger btn-xs page-scroll"><span className="fa fa-facebook"></span></a>
                                                     <a href="#" className="btn btn-danger btn-xs page-scroll"><span className="fa fa-twitter"></span></a>
-                                                </p>
+                                                </p>*/}
                                             </div>
 
                                         </li>
                                     </ul>
                                 </div>
+                                <div className="col-md-12 event-item">
+                                    <ul className="event-list">
+                                        <li>
+                                            <time dateTime="2014-07-20">
+                                                <span className="day"><span className="fa fa-calendar"></span></span>
+                                                <span className="month">Mar</span>
+                                                <span className="year">2017</span>
+                                                <span className="time">ALL DAY</span>
+                                            </time>
+                                            <div className="info">
+                                                <h3 className="title">Project Management Committee (PMC) Meeting</h3>
+                                                <p className="desc">In this meeting, members of the PMC shared and discussed outputs generated from the preliminary modeling exercise.</p>
+                                                <p className="desc">Date: 24 Mar 2017</p>
+                                                {/*<p className="desc">View announcement on: <a href="#" className="btn btn-danger btn-xs page-scroll"><span className="fa fa-facebook"></span></a>
+                                                    <a href="#" className="btn btn-danger btn-xs page-scroll"><span className="fa fa-twitter"></span></a>
+                                                </p>*/}
+                                            </div>
+
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div className="col-md-12 event-item">
+                                    <ul className="event-list">
+                                        <li>
+                                            <time dateTime="2014-07-20">
+                                                <span className="day"><span className="fa fa-calendar"></span></span>
+                                                <span className="month">Mar</span>
+                                                <span className="year">2017</span>
+                                                <span className="time">ALL DAY</span>
+                                            </time>
+                                            <div className="info">
+                                                <h3 className="title">Project Management Committee (PMC) Meeting</h3>
+                                                <p className="desc">In this meeting, members of the PMC discussed and updated each other on project activities.</p>
+                                                <p className="desc">Date: 02 Mar 2017</p>
+                                                {/*<p className="desc">View announcement on: <a href="#" className="btn btn-danger btn-xs page-scroll"><span className="fa fa-facebook"></span></a>
+                                                    <a href="#" className="btn btn-danger btn-xs page-scroll"><span className="fa fa-twitter"></span></a>
+                                                </p>*/}
+                                            </div>
+
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div className="col-md-12 event-item">
+                                    <ul className="event-list">
+                                        <li>
+                                            <time dateTime="2014-07-20">
+                                                <span className="day"><span className="fa fa-calendar"></span></span>
+                                                <span className="month">Jan</span>
+                                                <span className="year">2017</span>
+                                                <span className="time">ALL DAY</span>
+                                            </time>
+                                            <div className="info">
+                                                <h3 className="title">Project Management Committee (PMC) Meeting</h3>
+                                                <p className="desc">In this meeting, members of the PMC discussed and updated each other on project activities.</p>
+                                                <p className="desc">Date: 19 Jan 2017</p>
+                                                {/*<p className="desc">View announcement on: <a href="#" className="btn btn-danger btn-xs page-scroll"><span className="fa fa-facebook"></span></a>
+                                                    <a href="#" className="btn btn-danger btn-xs page-scroll"><span className="fa fa-twitter"></span></a>
+                                                </p>*/}
+                                            </div>
+
+                                        </li>
+                                    </ul>
+                                </div>
+
                             </div>
                         </div>
                     </div>
@@ -468,7 +539,6 @@ var Home = React.createClass({
                     <div className="container">
                         <div className="section-title text-center">
                             <h2>Contact Us</h2>
-                            <hr/>
                         </div>
                         <div className="col-md-10 col-md-offset-1 contact-info">
                             <div className="col-md-4">

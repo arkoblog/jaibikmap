@@ -415,7 +415,7 @@ header .intro-text {
 }
 
 #objectives  .section-title {
-	margin-bottom: 70px;
+	margin-bottom: 0px;
 }
 
 #objectives li {
@@ -445,7 +445,7 @@ header .intro-text {
 
 /* Services Section */
 #services {
-	padding: 120px 0;
+	padding: 50px 0;
 	background: #6aaf08;
 }
 #services .service-media {
@@ -479,7 +479,7 @@ header .intro-text {
 }
 /* Portfolio Section */
 #team {
-	padding: 100px 0;
+	padding: 120px 0;
 	background: #f6f6f6;
 }
 

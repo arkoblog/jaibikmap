@@ -17,12 +17,15 @@ var Main = {
 		  target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
 		  if (target.length) {
 		    $('html,body').animate({
-		      scrollTop: target.offset().top - 50
+		      scrollTop: target.offset().top - 200
 		    }, 900);
+
 		    return false;
 		  }
 		}
 		});
+
+		
 
 	 // Show Menu on Book
 	    $(window).on('scroll', function() {
@@ -40,7 +43,7 @@ var Main = {
 	    });
 
 	    
-			console.log( $(".navbar-toggle"))
+			// console.log( $(".navbar-toggle"))
 
 		        // console.log("Clicked")
 
