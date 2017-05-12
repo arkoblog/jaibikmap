@@ -220,7 +220,7 @@ var Home = React.createClass({
                                     </div>
                                 </div>
                                 <div className="col-md-4 col-sm-4 col-xs-6 text-center centered-col">
-                                    <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/profile_m.jpg" alt=" "/> 
+                                    <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/nama.jpg" alt=" "/> 
                                     </div>
                                     <div className="service-desc">
                                         <h3>Dr. Nama Budhathoki</h3>
@@ -294,7 +294,7 @@ var Home = React.createClass({
                                     </div>
                                 </div>
                                 <div className="col-md-4 col-sm-4 col-xs-6 text-center centered-col">
-                                    <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/profile_m.jpg" alt=" "/> 
+                                    <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/nama.jpg" alt=" "/> 
                                     </div>
                                     <div className="service-desc">
                                         <h3>Dr. Nama Budhathoki</h3>
@@ -324,7 +324,7 @@ var Home = React.createClass({
                                     </div>
                                 </div>
                                 <div className="col-md-4 col-sm-4 col-xs-6 text-center centered-col">
-                                    <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/profile_m.jpg" alt=" "/> </div>
+                                    <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/Deep%20Narayan%20Shah.JPG" alt=" "/> </div>
                                     <div className="service-desc">
                                         <h3>Deep Narayan Shah, Ph. D.</h3>
                                         <h4>Meteorological Data Analyst, International Union for Conservation of Nature</h4>
@@ -338,42 +338,42 @@ var Home = React.createClass({
                                     </div>
                                 </div>
                                 <div className="col-md-4 col-sm-4 col-xs-6 text-center centered-col">
-                                    <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/profile_m.jpg" alt=" "/> </div>
+                                    <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/nama.jpg" alt=" "/> </div>
                                     <div className="service-desc">
                                         <h3>Dr. Nama Budhathoki</h3>
                                         <h4>Co-principal Investigator, Kathmandu Living Labs</h4>
                                     </div>
                                 </div>
                                 <div className="col-md-4 col-sm-4 col-xs-6 text-center centered-col">
-                                    <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/profile_m.jpg" alt=" "/> </div>
+                                    <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/Hari%20Basnet.JPG" alt=" "/> </div>
                                     <div className="service-desc">
                                         <h3>Hari Basnet</h3>
                                         <h4>Mammalian / Habitat Land-use Data analyst, Department of National Parks and Wildlife Conservation</h4>
                                     </div>
                                 </div>
                                 <div className="col-md-4 col-sm-4 col-xs-6 text-center centered-col">
-                                    <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/profile_m.jpg" alt=" "/> </div>
+                                    <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/Prabhat%20Raj%20Dahal.jpg" alt=" "/> </div>
                                     <div className="service-desc">
                                         <h3>Prabhat Raj Dahal</h3>
                                         <h4>GIS / Modelling Expert, Kathmandu Living Labs</h4>
                                     </div>
                                 </div>
                                 <div className="col-md-4 col-sm-4 col-xs-6 text-center centered-col">
-                                    <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/profile_m.jpg" alt=" "/> </div>
+                                    <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/arogya.jpg" alt=" "/> </div>
                                     <div className="service-desc">
                                         <h3>Arogya Koirala</h3>
                                         <h4>Map System Designer, Kathmandu Living Labs</h4>
                                     </div>
                                 </div>
                                 <div className="col-md-4 col-sm-4 col-xs-6 text-center centered-col">
-                                    <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/profile_f.png" alt=" "/> </div>
+                                    <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/Anu%20Rai.jpg" alt=" "/> </div>
                                     <div className="service-desc">
                                         <h3>Anu Rai</h3>
                                         <h4>Intern, International Union for Conservation of Nature</h4>
                                     </div>
                                 </div>
                                 <div className="col-md-4 col-sm-4 col-xs-6 text-center centered-col">
-                                    <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/profile_m.jpg" alt=" "/> </div>
+                                    <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/Ayush%20Adhikari.jpg" alt=" "/> </div>
                                     <div className="service-desc">
                                         <h3>Ayush Adhikari</h3>
                                         <h4>Intern, International Union for Conservation of Nature</h4>
