@@ -115,7 +115,7 @@ var Home = React.createClass({
                                         </p>
                                         
                                        <a href="https://invis.io/58BNZI9ZF#/233214218_1" target = "_blank" className="btn btn-custom btn-lg page-scroll">Explore Mammalian Species</a>
-                                       <a href="https://invis.io/7WBN9KZGK#/232988104_1" target = "_blank" className="btn btn-custom btn-lg page-scroll">Submit Observations</a>
+                                       <a href="https://invis.io/6WBN9K6KV#/232993027_1" target = "_blank" className="btn btn-custom btn-lg page-scroll">Submit Observations</a>
 
                                       </div>
                                 </div>
@@ -144,7 +144,7 @@ var Home = React.createClass({
                                                 <li>How can ICT tools be applied to cutting-edge research questions to not only provide a proof of concept for emerging, innovative mapping tools, but also inform conservation and development planning?</li>
                                             </ul>
 
-                                            <a href="#" className="btn btn-custom btn-lg page-scroll">Click here to explore mammalian species</a> </div>
+                                            <a href="https://invis.io/6WBN9K6KV#/232993027_1" className="btn btn-custom btn-lg page-scroll">Click here to explore mammalian species</a> </div>
                                     </div>
 
                                 </div>
@@ -198,7 +198,7 @@ var Home = React.createClass({
                                     <div className="service-desc">
                                         <h3>Dr. Maheshwar Dhakal</h3>
                                         <h4>Chairperson</h4>
-                                        <h4>Joint Secretary, Biodiversity and Environment Division, MoFSC</h4>
+                                        <h4>Joint Secretary, Biodiversity and Environment Division, Ministry of Forest and Soil Conservation</h4>
                                     </div>
                                 </div>
                                 <div className="col-md-4 col-sm-4 col-xs-6 text-center centered-col">
@@ -207,7 +207,7 @@ var Home = React.createClass({
                                     <div className="service-desc">
                                         <h3>Gopal Prakash Bhattarai</h3>
                                         <h4>Member</h4>
-                                        <h4>Deputy Director General, DNPWC</h4>
+                                        <h4>Deputy Director General, Department of National Parks and Wildlife Conservation</h4>
                                     </div>
                                 </div>
                                 <div className="col-md-4 col-sm-4 col-xs-6 text-center centered-col">
@@ -216,7 +216,7 @@ var Home = React.createClass({
                                     <div className="service-desc">
                                         <h3>Prof. Mohan Siwakoti</h3>
                                         <h4>Member</h4>
-                                        <h4>HoD, CDB/TU</h4>
+                                        <h4>Head of Department, Central Department of Botany, Tribhuwan University</h4>
                                     </div>
                                 </div>
                                 <div className="col-md-4 col-sm-4 col-xs-6 text-center centered-col">
@@ -225,7 +225,7 @@ var Home = React.createClass({
                                     <div className="service-desc">
                                         <h3>Dr. Nama Budhathoki</h3>
                                         <h4>Co-principal Investigator</h4>
-                                        <h4>Executive Director, KLL</h4>
+                                        <h4>Executive Director, Kathmandu Living Labs</h4>
                                     </div>
                                 </div>
                                 <div className="col-md-4 col-sm-4 col-xs-6 text-center centered-col">
@@ -243,7 +243,7 @@ var Home = React.createClass({
                                     <div className="service-desc">
                                         <h3>Dhananjaya Lamichhane</h3>
                                         <h4>Member Secretary</h4>
-                                        <h4>Under Secretary, Biodiversity and Environment Division, MoFSC/BED</h4>
+                                        <h4>Under Secretary, Biodiversity and Environment Division, Ministry of Forest and Soil Conservation/BED</h4>
                                     </div>
                                 </div>
                             </div>
@@ -272,7 +272,7 @@ var Home = React.createClass({
                                     <div className="service-desc">
                                         <h3>Dr. Menaka Panta Neupane</h3>
                                         <h4>Member</h4>
-                                        <h4>Consultant / Programme Development, IUCN</h4>
+                                        <h4>Consultant / Programme Development, International Union for Conservation of Nature</h4>
                                     </div>
                                 </div>
                                 <div className="col-md-4 col-sm-4 col-xs-6 text-center centered-col">
@@ -281,7 +281,7 @@ var Home = React.createClass({
                                     <div className="service-desc">
                                         <h3>Prof. Mohan Siwakoti</h3>
                                         <h4>Member</h4>
-                                        <h4>HoD, CDB/TU</h4>
+                                        <h4>Head of Department, Central Department of Botany, Tribhuwan University</h4>
                                     </div>
                                 </div>
                                 <div className="col-md-4 col-sm-4 col-xs-6 text-center centered-col">
@@ -290,7 +290,7 @@ var Home = React.createClass({
                                     <div className="service-desc">
                                         <h3>Prof. Dr. Pramod Kumar Jha</h3>
                                         <h4>Member</h4>
-                                        <h4>Consultant, IUCN</h4>
+                                        <h4>Consultant, International Union for Conservation of Nature</h4>
                                     </div>
                                 </div>
                                 <div className="col-md-4 col-sm-4 col-xs-6 text-center centered-col">
@@ -319,64 +319,64 @@ var Home = React.createClass({
                                     <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/profile_f.png" alt=" "/> 
                                     </div>
                                     <div className="service-desc">
-                                        <h3>Menaka Pant, Ph. D.</h3>
-                                        <h4>Principal Investigator / GIS, RS Data Quality Control Specialist, IUCN</h4>
+                                        <h3>Dr. Menaka Panta Neupane</h3>
+                                        <h4>Principal Investigator / GIS, RS Data Quality Control Specialist, International Union for Conservation of Nature</h4>
                                     </div>
                                 </div>
                                 <div className="col-md-4 col-sm-4 col-xs-6 text-center centered-col">
                                     <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/profile_m.jpg" alt=" "/> </div>
                                     <div className="service-desc">
                                         <h3>Deep Narayan Shah, Ph. D.</h3>
-                                        <h4>Meteorological Data Analyst, IUCN</h4>
+                                        <h4>Meteorological Data Analyst, International Union for Conservation of Nature</h4>
                                     </div>
                                 </div>
                                 <div className="col-md-4 col-sm-4 col-xs-6 text-center centered-col">
                                     <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/profile_m.jpg" alt=" "/> </div>
                                     <div className="service-desc">
                                         <h3>Prof. Pramod K. Jha</h3>
-                                        <h4>Co-principal Investigator, IUCN</h4>
+                                        <h4>Co-principal Investigator, International Union for Conservation of Nature</h4>
                                     </div>
                                 </div>
                                 <div className="col-md-4 col-sm-4 col-xs-6 text-center centered-col">
                                     <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/profile_m.jpg" alt=" "/> </div>
                                     <div className="service-desc">
-                                        <h3>Nama Budhathoki, Ph. D.</h3>
-                                        <h4>Co-principal Investigator, KLL</h4>
+                                        <h3>Dr. Nama Budhathoki</h3>
+                                        <h4>Co-principal Investigator, Kathmandu Living Labs</h4>
                                     </div>
                                 </div>
                                 <div className="col-md-4 col-sm-4 col-xs-6 text-center centered-col">
                                     <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/profile_m.jpg" alt=" "/> </div>
                                     <div className="service-desc">
                                         <h3>Hari Basnet</h3>
-                                        <h4>Mammalian / Habitat Land-use Data analyst, DNPWC</h4>
+                                        <h4>Mammalian / Habitat Land-use Data analyst, Department of National Parks and Wildlife Conservation</h4>
                                     </div>
                                 </div>
                                 <div className="col-md-4 col-sm-4 col-xs-6 text-center centered-col">
                                     <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/profile_m.jpg" alt=" "/> </div>
                                     <div className="service-desc">
                                         <h3>Prabhat Raj Dahal</h3>
-                                        <h4>GIS / Modelling Expert, KLL</h4>
+                                        <h4>GIS / Modelling Expert, Kathmandu Living Labs</h4>
                                     </div>
                                 </div>
                                 <div className="col-md-4 col-sm-4 col-xs-6 text-center centered-col">
                                     <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/profile_m.jpg" alt=" "/> </div>
                                     <div className="service-desc">
                                         <h3>Arogya Koirala</h3>
-                                        <h4>Web Developer, KLL</h4>
+                                        <h4>Map System Designer, Kathmandu Living Labs</h4>
                                     </div>
                                 </div>
                                 <div className="col-md-4 col-sm-4 col-xs-6 text-center centered-col">
                                     <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/profile_f.png" alt=" "/> </div>
                                     <div className="service-desc">
                                         <h3>Anu Rai</h3>
-                                        <h4>Intern, IUCN</h4>
+                                        <h4>Intern, International Union for Conservation of Nature</h4>
                                     </div>
                                 </div>
                                 <div className="col-md-4 col-sm-4 col-xs-6 text-center centered-col">
                                     <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/profile_m.jpg" alt=" "/> </div>
                                     <div className="service-desc">
                                         <h3>Ayush Adhikari</h3>
-                                        <h4>Intern, IUCN</h4>
+                                        <h4>Intern, International Union for Conservation of Nature</h4>
                                     </div>
                                 </div>
                             </div>
@@ -454,7 +454,7 @@ var Home = React.createClass({
                                             </time>
                                             <div className="info">
                                                 <h3 className="title">First Project Steering Committee (PSC) Meeting</h3>
-                                                <p className="desc"> The first meeting for the PSC was successfully conducted at the Biodiversity and Environment Division / Ministry of Forest and Soil Conservation (BED/MoFSC)</p>
+                                                <p className="desc"> The first meeting for the PSC was successfully conducted at the Biodiversity and Environment Division / Ministry of Forest and Soil Conservation (BED/Ministry of Forest and Soil Conservation)</p>
                                                 <p className="desc">Date: 4 April 2017</p>
                                                 {/*<p className="desc">View announcement on: <a href="#" className="btn btn-danger btn-xs page-scroll"><span className="fa fa-facebook"></span></a>
                                                     <a href="#" className="btn btn-danger btn-xs page-scroll"><span className="fa fa-twitter"></span></a>
