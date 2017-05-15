@@ -285,7 +285,7 @@ var Home = React.createClass({
                                     </div>
                                 </div>
                                 <div className="col-md-4 col-sm-4 col-xs-6 text-center centered-col">
-                                    <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/profile_m.jpg" alt=" "/> 
+                                    <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/pramod.png" alt=" "/> 
                                     </div>
                                     <div className="service-desc">
                                         <h3>Prof. Dr. Pramod Kumar Jha</h3>
@@ -331,10 +331,10 @@ var Home = React.createClass({
                                     </div>
                                 </div>
                                 <div className="col-md-4 col-sm-4 col-xs-6 text-center centered-col">
-                                    <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/profile_m.jpg" alt=" "/> </div>
+                                    <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/pramod.png" alt=" "/> </div>
                                     <div className="service-desc">
-                                        <h3>Prof. Pramod K. Jha</h3>
-                                        <h4>Co-principal Investigator, International Union for Conservation of Nature</h4>
+                                        <h3>Prof. Dr. Pramod K. Jha</h3>
+                                        <h4>Consultant, International Union for Conservation of Nature</h4>
                                     </div>
                                 </div>
                                 <div className="col-md-4 col-sm-4 col-xs-6 text-center centered-col">
@@ -402,7 +402,9 @@ var Home = React.createClass({
                                 <div className="col-md-3 col-xs-6 centered-col ">
                                     <a id='kll-logo' href='http://kathmandulivinglabs.org/' target="_blank" title="Kathmandu Living Labs (click to visit website) "></a>
                                 </div>
-
+                                <div className="col-md-3 col-xs-6 centered-col ">
+                                    <a id='usaid-logo' href='https://www.usaid.gov/nepal' target="_blank" title="Kathmandu Living Labs (click to visit website) "></a>
+                                </div>
                             </div>
                             <br/>
                             <br/>

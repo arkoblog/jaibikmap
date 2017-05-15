@@ -254,58 +254,73 @@ header .intro-text {
 /*Logos*/
 
 #iucn-logo {
-     background: url('../img/logos/iucn_b.png');
-     height: 100px;
-     width: 110px;
+     background: url('../img/logos/iucn-logo.png');
+     height: 143px;
+     width: 150px;
      display: block;
      margin: 0 auto;
 }
 
 #iucn-logo:hover
 {
-    background: url('../img/logos/iucn_n.png');
+    background: url('../img/logos/iucn-logo.png');
 
 }
 
 #kll-logo {
-     background: url('../img/logos/kll_b.png');
-     height: 100px;
-     width: 110px;
+     background: url('../img/logos/kll-logo.png');
+     height: 161px;
+     width: 150px;
      display: block;
      margin: 0 auto;
 }
 
 #kll-logo:hover
 {
-    background: url('../img/logos/kll_n.png');
+    background: url('../img/logos/kll-logo.png');
 
 }
 
 #dnpwc-logo {
-     background: url('../img/logos/dnpwc_b.png');
-     height: 100px;
-     width: 110px;
+     background: url('../img/logos/gon-logo.png');
+     height: 127px;
+     width: 150px;
      display: block;
      margin: 0 auto;
 }
 
 #dnpwc-logo:hover
 {
-    background: url('../img/logos/dnpwc_n.png');
+    background: url('../img/logos/gon-logo.png');
 
 }
 
 #tu-logo {
-     background: url('../img/logos/tu_b.png');
-     height: 100px;
-     width: 110px;
+     background: url('../img/logos/tu-logo.png');
+     height: 168px;
+     width: 150px;
      display: block;
      margin: 0 auto;
 }
 
 #tu-logo:hover
 {
-    background: url('../img/logos/tu_n.png');
+    background: url('../img/logos/tu-logo.png');
+
+}
+
+
+#usaid-logo {
+     background: url('../img/logos/usaid-logo.png');
+     height: 200px;
+     width: 300px;
+     display: block;
+     margin: 0 auto;
+}
+
+#usaid-logo:hover
+{
+    background: url('../img/logos/usaid-logo.png');
 
 }
 
