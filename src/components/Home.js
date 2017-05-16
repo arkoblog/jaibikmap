@@ -299,7 +299,7 @@ var Home = React.createClass({
                                     <div className="service-desc">
                                         <h3>Dr. Nama Budhathoki</h3>
                                         <h4>Member</h4>
-                                        <h4>Representative, Kathmandu Living Labs</h4>
+                                        <h4>Executive Director, Kathmandu Living Labs</h4>
                                     </div>
                                 </div>
                             </div>
@@ -362,7 +362,7 @@ var Home = React.createClass({
                                     <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/arogya.jpg" alt=" "/> </div>
                                     <div className="service-desc">
                                         <h3>Arogya Koirala</h3>
-                                        <h4>Map System Designer, Kathmandu Living Labs</h4>
+                                        <h4>System Designer, Kathmandu Living Labs</h4>
                                     </div>
                                 </div>
                                 <div className="col-md-4 col-sm-4 col-xs-6 text-center centered-col">
