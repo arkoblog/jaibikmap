@@ -193,7 +193,7 @@ var Home = React.createClass({
 
                             <div className="row centered-row">
                                 <div className="col-md-4 col-sm-4 col-xs-6 text-center centered-col">
-                                    <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/Maheshwar_Dhakal.jpg" alt=" "/> 
+                                    <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/Maheshwor Dhakal.jpg" alt=" "/> 
                                     </div>
                                     <div className="service-desc">
                                         <h3>Dr. Maheshwar Dhakal</h3>
@@ -238,7 +238,7 @@ var Home = React.createClass({
                                     </div>
                                 </div>
                                 <div className="col-md-4 col-sm-4 col-xs-6 text-center centered-col">
-                                    <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/Dhananjaya Lamichhane.jpg" alt=" "/> 
+                                    <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/Dhananjaya Lamichane.jpg" alt=" "/> 
                                     </div>
                                     <div className="service-desc">
                                         <h3>Dhananjaya Lamichhane</h3>
@@ -352,7 +352,7 @@ var Home = React.createClass({
                                     </div>
                                 </div>
                                 <div className="col-md-4 col-sm-4 col-xs-6 text-center centered-col">
-                                    <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/Prabhat%20Raj%20Dahal.jpg" alt=" "/> </div>
+                                    <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/Prabhat Raj Dahal.png" alt=" "/> </div>
                                     <div className="service-desc">
                                         <h3>Prabhat Raj Dahal</h3>
                                         <h4>GIS / Modelling Expert, Kathmandu Living Labs</h4>
@@ -380,7 +380,7 @@ var Home = React.createClass({
                                     </div>
                                 </div>
                                 <div className="col-md-4 col-sm-4 col-xs-6 text-center centered-col">
-                                    <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/Narayan Gautam.jpg" alt=" "/> </div>
+                                    <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/Narayan Gautam.png" alt=" "/> </div>
                                     <div className="service-desc">
                                         <h3>Narayan Gautam</h3>
                                         <h4>Meteorological Data Analyst, Department of Metrology, Tri-Chandra Multiple Campus</h4>
@@ -394,7 +394,7 @@ var Home = React.createClass({
                                     </div>
                                 </div>
                                 <div className="col-md-4 col-sm-4 col-xs-6 text-center centered-col">
-                                    <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/Ayush%20Adhikari.jpg" alt=" "/> </div>
+                                    <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/Ayush_Adhikari.jpg" alt=" "/> </div>
                                     <div className="service-desc">
                                         <h3>Ayush Adhikari</h3>
                                         <h4>Intern, International Union for Conservation of Nature</h4>
