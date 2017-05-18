@@ -6,9 +6,7 @@ import Scrollchor from 'react-scrollchor';
 import ScrollableAnchor from 'react-scrollable-anchor'
 require ('../css/home.css')
 // require ('../js/home.js')
-
 // Load Components
-
 // var MyMap = require('./Maps')
 
 

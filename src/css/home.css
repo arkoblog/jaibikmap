@@ -367,10 +367,10 @@ header .intro-text {
 
 #about .service-media img {
 	position: relative;
-	width: 150px;
-	height: 150px;
+	width: 200px;
+	height: 200px;
 	border-radius: 50%;
-	border: 10px solid rgba(106,175,8,0.2);
+	border: 5px solid rgba(106,175,8,0.2);
 }
 
 #about ul {
@@ -507,10 +507,10 @@ header .intro-text {
 }
 #team .service-media img {
 	position: relative;
-	width: 	100px;
-	height: 100px;
+	width: 	200px;
+	height: 200px;
 	border-radius: 50%;
-	border: 10px solid rgba(0,0,0,0.21);
+	border: 5px solid rgba(0,0,0,0.21);
 }
 #team .service-desc {
 	margin: 10px 10px 40px;
