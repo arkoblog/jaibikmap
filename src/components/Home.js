@@ -112,7 +112,7 @@ var Home = React.createClass({
                                             <br/>
                                         </p>
                                         
-                                       <a href="https://invis.io/58BNZI9ZF#/233214218_1" target = "_blank" className="btn btn-custom btn-lg page-scroll">Explore Mammalian Species</a>
+                                       <a href="https://invis.io/58BNZI9ZF#/234350991_1" target = "_blank" className="btn btn-custom btn-lg page-scroll">Explore Mammalian Species</a>
                                        <a href="https://invis.io/6WBN9K6KV#/232993027_1" target = "_blank" className="btn btn-custom btn-lg page-scroll">Submit Observations</a>
 
                                       </div>
@@ -142,7 +142,7 @@ var Home = React.createClass({
                                                 <li>How can ICT tools be applied to cutting-edge research questions to not only provide a proof of concept for emerging, innovative mapping tools, but also inform conservation and development planning?</li>
                                             </ul>
 
-                                            <a href="https://invis.io/6WBN9K6KV#/232993027_1" className="btn btn-custom btn-lg page-scroll">Click here to explore mammalian species</a> </div>
+                                            <a href="https://invis.io/58BNZI9ZF#/234350991_1" className="btn btn-custom btn-lg page-scroll">Click here to explore mammalian species</a> </div>
                                     </div>
 
                                 </div>
@@ -455,7 +455,7 @@ var Home = React.createClass({
                                             <div className="info">
                                                 <h3 className="title">Inception Workshop</h3>
                                                 <p className="desc"></p>
-                                                <p className="desc">Venue: Hotel Himalaya, Kupondole, Lalitpur | Time: 19 May 2017 (9AM to 11AM)</p>
+                                                <p className="desc">Venue: Hotel Himalaya, Kupondole, Lalitpur | Time: 19 May 2017 (8AM to 11AM)</p>
                                                 {/*<p className="desc">View announcement on: <a href="#" className="btn btn-danger btn-xs page-scroll"><span className="fa fa-facebook"></span></a>
                                                     <a href="#" className="btn btn-danger btn-xs page-scroll"><span className="fa fa-twitter"></span></a>
                                                 </p>*/}
