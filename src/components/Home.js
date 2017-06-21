@@ -12,6 +12,59 @@ require('../css/home.css')
 var Lightbox = require('react-lightbox-component').Lightbox;
 
 
+import Gallery from 'react-grid-gallery';
+
+
+const IMAGES =
+[{
+        src: "https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/inception/1.jpg",
+        thumbnail: "https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/inception/1.jpg",
+        // thumbnailWidth: ,
+        // thumbnailHeight: 6,
+        caption: "Inception Workshop"
+},
+{
+        src: "https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/inception/2.jpg",
+        thumbnail: "https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/inception/2.jpg",
+        // thumbnailWidth: 30,
+        // thumbnailHeight: 20,
+        caption: "Inception Workshop"
+},
+{
+        src: "https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/inception/3.jpg",
+        thumbnail: "https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/inception/3.jpg",
+        // thumbnailWidth: 30,
+        // thumbnailHeight: 20,
+        caption: "Inception Workshop"
+},
+{
+        src: "https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/inception/4.jpg",
+        thumbnail: "https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/inception/4.jpg",
+        // thumbnailWidth: 30,
+        // thumbnailHeight: 20,
+        caption: "Inception Workshop"
+},
+{
+        src: "https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/inception/5.jpg",
+        thumbnail: "https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/inception/5.jpg",
+        // thumbnailWidth: 30,
+        // thumbnailHeight: 20,
+        caption: "Inception Workshop"
+},
+{
+        src: "https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/inception/6.jpg",
+        thumbnail: "https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/inception/6.jpg",
+        // thumbnailWidth: 30,
+        // thumbnailHeight: 20,
+        caption: "Inception Workshop"
+},
+{
+        src: "https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/inception/7.jpg",
+        thumbnail: "https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/inception/7.jpg",
+        // thumbnailWidth: 30,
+        // thumbnailHeight: 20,
+        caption: "Inception Workshop"
+}]
 
 
 
@@ -19,11 +72,11 @@ var Home = React.createClass({
     getInitialState: function() {
         return {
             show: false,
-            display: "block"
+            display: "block",
             images: [{
-                src: 'some image url',
+                src: 'https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/inception/1.jpg',
                 title: 'Inception Workshop',
-                description: 'image description'
+                description: ''
             }]
         }
     },
@@ -464,7 +517,8 @@ var Home = React.createClass({
                                                 <h3 className="title">Inception Workshop</h3>
                                                 <p className="desc"></p>
                                                 <p className="desc">Venue: Hotel Himalaya, Kupondole, Lalitpur | Time: 19 May 2017 (8AM to 11AM)</p>
-                                                {/*<p className="desc">View announcement on: <a href="#" className="btn btn-danger btn-xs page-scroll"><span className="fa fa-facebook"></span></a>
+
+                                                <Gallery images={IMAGES}/>                                                {/*<p className="desc">View announcement on: <a href="#" className="btn btn-danger btn-xs page-scroll"><span className="fa fa-facebook"></span></a>
                                                     <a href="#" className="btn btn-danger btn-xs page-scroll"><span className="fa fa-twitter"></span></a>
                                                 </p>*/}
                                             </div>
