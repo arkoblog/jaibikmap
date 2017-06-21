@@ -9,8 +9,6 @@ require('../css/home.css')
     // Load Components
     // var MyMap = require('./Maps')
 
-var Lightbox = require('react-lightbox-component').Lightbox;
-
 
 import Gallery from 'react-grid-gallery';
 
@@ -434,7 +432,7 @@ var Home = React.createClass({
                                 <div className="col-md-4 col-sm-4 col-xs-6 text-center centered-col">
                                     <div className="service-media"> <img src="https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/profile/profile_m.jpg" alt=" "/> </div>
                                     <div className="service-desc">
-                                        <h3>Ram Akhilesh Mandal</h3>
+                                        <h3>Ram Asheshwar Mandal</h3>
                                         <h4>Ecological Associate, Central Department of Biology, Tribhuwan University</h4>
                                     </div>
                                 </div>
@@ -517,9 +515,6 @@ var Home = React.createClass({
                                                 <h3 className="title">Project Management Committee (PMC) Meeting</h3>
                                                 <p className="desc">In this meeting, members of the PMC shared and discussed outputs generated from the preliminary modeling exercise.</p>
                                                 <p className="desc">Date: 21 June 2017</p>
-                                                {/*<p className="desc">View announcement on: <a href="#" className="btn btn-danger btn-xs page-scroll"><span className="fa fa-facebook"></span></a>
-                                                    <a href="#" className="btn btn-danger btn-xs page-scroll"><span className="fa fa-twitter"></span></a>
-                                                </p>*/}
                                             </div>
 
                                         </li>
