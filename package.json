@@ -30,6 +30,7 @@
     "lodash": "^4.17.4",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
+    "react-lightbox-component": "^0.2.0",
     "react-router": "^2.0.0-rc5",
     "react-scrollable-anchor": "^0.4.2",
     "react-scrollchor": "^2.2.0"

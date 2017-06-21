@@ -4,10 +4,13 @@ var Link = ReactRouter.Link;
 var HomeHelper = require('../js/main_1')
 import Scrollchor from 'react-scrollchor';
 import ScrollableAnchor from 'react-scrollable-anchor'
-require ('../css/home.css')
-// require ('../js/home.js')
-// Load Components
-// var MyMap = require('./Maps')
+require('../css/home.css')
+    // require ('../js/home.js')
+    // Load Components
+    // var MyMap = require('./Maps')
+
+var Lightbox = require('react-lightbox-component').Lightbox;
+
 
 
 
@@ -15,32 +18,37 @@ require ('../css/home.css')
 var Home = React.createClass({
     getInitialState: function() {
         return {
-            show:false,
-            display:"block"
+            show: false,
+            display: "block"
+            images: [{
+                src: 'some image url',
+                title: 'Inception Workshop',
+                description: 'image description'
+            }]
         }
     },
-    componentWillMount: function () {
+    componentWillMount: function() {
         this._handleResize();
 
     },
     scrollHandler: function(section) {
-        document.getElementById('about').scrollIntoView() 
+        document.getElementById('about').scrollIntoView()
     },
-    onClick : function(e) {
+    onClick: function(e) {
 
         // console.log(maxWindowWidth)
         var current = this.state.show
         console.log(current)
         if (current == true) {
             this.setState({
-                display:"show",
-                show : !current
+                display: "show",
+                show: !current
             })
         } else {
             this.setState({
-                display:"hide",
-                show : !current
-            }) 
+                display: "hide",
+                show: !current
+            })
         }
         // var clicked=this.state.clicked
         // $(".navbar-collapse").collapse();
@@ -51,23 +59,23 @@ var Home = React.createClass({
     _handleResize: function() {
         var current = this.state.show
         var maxWindowWidth = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
-        if(maxWindowWidth > 1000) {
+        if (maxWindowWidth > 1000) {
             this.setState({
-                display:"show",
-                show : !current
+                display: "show",
+                show: !current
             })
-        } else  {
+        } else {
             this.setState({
-                display:"hide",
-                show : !current
-            })             
+                display: "hide",
+                show: !current
+            })
         }
         HomeHelper.onLoad()
     },
     _navClick: function() {
         console.log("click");
         HomeHelper.onLoad()
-        
+
     },
     componentDidMount: function() {
         window.addEventListener("resize", this._handleResize);
@@ -611,7 +619,7 @@ var Home = React.createClass({
                     </div>
                 </div>
 
-			</div>
+            </div>
         )
     }
 })
