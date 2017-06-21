@@ -61,8 +61,8 @@ const IMAGES =
 {
         src: "https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/inception/7.jpg",
         thumbnail: "https://raw.githubusercontent.com/arkoblog/jaibikmap/master/src/img/inception/7.jpg",
-        // thumbnailWidth: 30,
-        // thumbnailHeight: 20,
+        thumbnailWidth: 90,
+        thumbnailHeight: 60,
         caption: "Inception Workshop"
 }]
 
@@ -509,6 +509,27 @@ var Home = React.createClass({
                                         <li>
                                             <time dateTime="2014-07-20">
                                                 <span className="day"><span className="fa fa-calendar"></span></span>
+                                                <span className="month">Jun</span>
+                                                <span className="year">2017</span>
+                                                <span className="time">ALL DAY</span>
+                                            </time>
+                                            <div className="info">
+                                                <h3 className="title">Project Management Committee (PMC) Meeting</h3>
+                                                <p className="desc">In this meeting, members of the PMC shared and discussed outputs generated from the preliminary modeling exercise.</p>
+                                                <p className="desc">Date: 21 June 2017</p>
+                                                {/*<p className="desc">View announcement on: <a href="#" className="btn btn-danger btn-xs page-scroll"><span className="fa fa-facebook"></span></a>
+                                                    <a href="#" className="btn btn-danger btn-xs page-scroll"><span className="fa fa-twitter"></span></a>
+                                                </p>*/}
+                                            </div>
+
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div className="col-md-12 event-item">
+                                    <ul className="event-list">
+                                        <li>
+                                            <time dateTime="2014-07-20">
+                                                <span className="day"><span className="fa fa-calendar"></span></span>
                                                 <span className="month">MAY</span>
                                                 <span className="year">2017</span>
                                                 <span className="time">ALL DAY</span>
@@ -518,7 +539,8 @@ var Home = React.createClass({
                                                 <p className="desc"></p>
                                                 <p className="desc">Venue: Hotel Himalaya, Kupondole, Lalitpur | Time: 19 May 2017 (8AM to 11AM)</p>
 
-                                                <Gallery images={IMAGES}/>                                                {/*<p className="desc">View announcement on: <a href="#" className="btn btn-danger btn-xs page-scroll"><span className="fa fa-facebook"></span></a>
+                                                <p className="desc">The Inception Workshop for the JabikMap project was held on May 19, 2017 at Hotel Himalaya, Lalitpur, Nepal. The secretary of Ministry of Forest and Soil Conservation Mr. Prakash Mathema launched the project at this event. Mr. Rishi Ranabhat from DNPWC talked about the need for biodiversity conservation and use of state of the art technologies to aid conservation efforts. This was followed by the presentation given by the JabikMap team where the key persons from the partner organization talked about their roles, methods and expected outputs to fulfill the objectives of the project. <br/><br/>The speakers were Dr. Menaka Panta from IUCN, Prof.Pramod Kumar Jha from Department of Botany, Tribhuvan University, Mr. Hari Basnet from DNPWC and Dr. Nama Raj Budhathoki from Kathmandu Living Labs. The wireframe of the JabikMap tool was also presented in the event. The floor was then opened for queries from the participants which were aptly answered by Prof. Jha and Dr. Maheshwor Dhakal. The event was concluded with the final remarks by IUCN´s country representative Dr. Prahlad Thapa.</p>
+                                                <Gallery images={IMAGES} rowHeight={60}/>                                                {/*<p className="desc">View announcement on: <a href="#" className="btn btn-danger btn-xs page-scroll"><span className="fa fa-facebook"></span></a>
                                                     <a href="#" className="btn btn-danger btn-xs page-scroll"><span className="fa fa-twitter"></span></a>
                                                 </p>*/}
                                             </div>
